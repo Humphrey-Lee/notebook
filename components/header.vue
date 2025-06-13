@@ -20,6 +20,9 @@
               <NuxtLink to="/blog2" class="nav-link">博客</NuxtLink>
             </li>
             <li class="nav-item">
+              <NuxtLink to="/admin" class="nav-link">后台</NuxtLink>
+            </li>
+            <li class="nav-item">
               <NuxtLink to="/contact-us" class="nav-link">联系我们</NuxtLink>
             </li>
           </ul>
