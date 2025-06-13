@@ -1,6 +1,6 @@
 <!--
 frt-index.vue
-此文件为前端首页页面，负责展示 JISHI Studio 的介绍和 Three.js 动画背景。
+此文件为前端首页页面，负责展示 JISHI Studio 的介绍和 Three.js 动画背景 安装了Three.js。
 -->
 <template>
   <div class="home-page">
@@ -10,10 +10,10 @@ frt-index.vue
         <a href="/" class="active">JISHI</a>
       </div>
       <div class="nav-center">
-        <a href="/works">WORKS</a>
+        <!-- <a href="/works">WORKS</a> -->
       </div>
       <div class="nav-right">
-        <a href="/about">ABOUT</a>
+        <!-- <a href="/about">ABOUT</a> -->
       </div>
     </nav>
     <main class="home-container">

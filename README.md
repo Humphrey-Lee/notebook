@@ -96,3 +96,8 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 // 1
 // 主要内容：新增 blog2 页面说明，包含结构和依赖组件。
+
+---
+
+### 2024-06-09 更新
+- 删除了首页导航栏和页脚中指向 /works、/about、/sitemap 的无效链接，修复了静态生成报错。
