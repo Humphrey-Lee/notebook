@@ -1,1 +1,0 @@
-import{u as a,j as s,k as r,l as o,m as u}from"./BocJqs5z.js";function i(n){var t;const e=n||s();return((t=e==null?void 0:e.ssrContext)==null?void 0:t.head)||(e==null?void 0:e.runWithContext(()=>{if(r())return o(u)}))}function d(n,e={}){const t=i(e.nuxt);if(t)return a(n,{head:t,...e})}export{d as u};

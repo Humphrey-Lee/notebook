@@ -400,6 +400,11 @@ const _routes = [
     component: () => import('./blog-9rVLx3Jk.mjs')
   },
   {
+    name: "admin",
+    path: "/admin",
+    component: () => import('./admin-C3juT9M_.mjs')
+  },
+  {
     name: "blog2",
     path: "/blog2",
     component: () => import('./blog2-8-e76q2P.mjs')
@@ -407,7 +412,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-uHELzPd1.mjs')
+    component: () => import('./index-DSEXr6BD.mjs')
   },
   {
     name: "about-us",
@@ -1113,7 +1118,7 @@ function applyTrailingSlashBehavior(to, trailingSlash) {
 const _sfc_main$4 = {};
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
   const _component_NuxtLink = __nuxt_component_0;
-  _push(`<header${ssrRenderAttrs(mergeProps({ class: "header" }, _attrs))} data-v-d7b9bf14><div class="container" data-v-d7b9bf14><div class="logo" data-v-d7b9bf14><h1 data-v-d7b9bf14>LOGO</h1></div><nav class="nav" data-v-d7b9bf14><ul class="nav-list" data-v-d7b9bf14><li class="nav-item" data-v-d7b9bf14>`);
+  _push(`<header${ssrRenderAttrs(mergeProps({ class: "header" }, _attrs))} data-v-c53d5e42><div class="container" data-v-c53d5e42><div class="logo" data-v-c53d5e42><h1 data-v-c53d5e42>LOGO</h1></div><nav class="nav" data-v-c53d5e42><ul class="nav-list" data-v-c53d5e42><li class="nav-item" data-v-c53d5e42>`);
   _push(ssrRenderComponent(_component_NuxtLink, {
     to: "/",
     class: "nav-link"
@@ -1129,7 +1134,7 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</li><li class="nav-item" data-v-d7b9bf14>`);
+  _push(`</li><li class="nav-item" data-v-c53d5e42>`);
   _push(ssrRenderComponent(_component_NuxtLink, {
     to: "/about-us",
     class: "nav-link"
@@ -1145,7 +1150,7 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</li><li class="nav-item" data-v-d7b9bf14>`);
+  _push(`</li><li class="nav-item" data-v-c53d5e42>`);
   _push(ssrRenderComponent(_component_NuxtLink, {
     to: "/blog",
     class: "nav-link"
@@ -1161,7 +1166,7 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</li><li class="nav-item" data-v-d7b9bf14>`);
+  _push(`</li><li class="nav-item" data-v-c53d5e42>`);
   _push(ssrRenderComponent(_component_NuxtLink, {
     to: "/blog2",
     class: "nav-link"
@@ -1177,7 +1182,23 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</li><li class="nav-item" data-v-d7b9bf14>`);
+  _push(`</li><li class="nav-item" data-v-c53d5e42>`);
+  _push(ssrRenderComponent(_component_NuxtLink, {
+    to: "/admin",
+    class: "nav-link"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(`后台`);
+      } else {
+        return [
+          createTextVNode("后台")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`</li><li class="nav-item" data-v-c53d5e42>`);
   _push(ssrRenderComponent(_component_NuxtLink, {
     to: "/contact-us",
     class: "nav-link"
@@ -1201,7 +1222,7 @@ _sfc_main$4.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/header.vue");
   return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
 };
-const __nuxt_component_1 = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-d7b9bf14"]]);
+const __nuxt_component_1 = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-c53d5e42"]]);
 const defineRouteProvider = (name = "RouteProvider") => defineComponent({
   name,
   props: {
